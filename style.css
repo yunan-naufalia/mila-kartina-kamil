@@ -40,7 +40,6 @@ img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); text-underline-offset: 0.2em; text-decoration-thickness: 0.08em; }
 a:hover { text-decoration-thickness: 0.15em; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 
 .skip {
   position: absolute; left: 1rem; top: -4rem; z-index: 10;
